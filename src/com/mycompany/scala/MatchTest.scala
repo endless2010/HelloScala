@@ -18,7 +18,7 @@ object MatchTest {
     var kind= day match{
       case "MON"|"TUE"|"WED"|"THU"|"FRI" =>"weekday"
       case "SAT"|"SUN" =>"weekend"
-      case _ => "unknown"
+      case _ => "unknown"  // _为通配符，相当于是default
     }
     println(kind)
   }

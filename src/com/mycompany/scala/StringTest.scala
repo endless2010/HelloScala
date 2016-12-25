@@ -19,5 +19,11 @@ object StringTest {
      
      println("scala "*3)
      println("scala"+2)
+     
+     //调用java的StringBuilder
+      val buf = new StringBuilder;
+      buf += 'a'
+      buf ++= "bcdef"
+      println( "buf is : " + buf.toString );
    }
 }
