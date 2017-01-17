@@ -1,4 +1,4 @@
-package com.mycompany.scala
+package com.mycompany.scala.tests
 
 class User(n:String){ //n相当于构造函数的参数
   val name:String=n //访问权限默认为public,任何代码都可以访问类的字段和方法

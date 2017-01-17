@@ -1,4 +1,6 @@
-package com.mycompany.scala
+package com.mycompany.scala.tests
+
+
 
 /**
  * scala中的列表是不可变的
@@ -15,6 +17,9 @@ object ListTest {
     println(colors.head)//第一个元素:red
     println(colors.tail)//除了第一个，剩下的元素：green,blue,white
     println(colors(1))//green
+    
+    println(List.fill(10)(2))//创建一个对x复制n份的列表 
+    println(List("one","two",3)(1))//列表访问是一个函数，所以使用的是()，而不是[] 
     
     var nums=List(10,20,30,40,50) 
     nums.foreach(c=>print(c+" "))
@@ -56,5 +61,10 @@ object ListTest {
     println(List(10,20,30).mkString(",")) //10,20,30
     println(List(10,20,30).toBuffer) //转换为可变集合，ArrayBuffer(10, 20, 30)
     println(List(10,20,20,30).toSet) //Set(10, 20, 30)
+    
+    println(List.range(2,6)) //List(2, 3, 4, 5)
+    println(List.range(2,6,2)) //List(2, 4)
+    println(List.range(6,2,-1)) //List(6, 5, 4, 3)
+    println(List.concat(List(1,2),List(3,4))) //List(1, 2, 3, 4)
     }
 }

@@ -1,7 +1,7 @@
-package com.mycompany.scala/**
- * scala的数值类型有：Byte,Int,Long,Short,Float,Double
- * 除了Int,其他都和java基础类型的包装类名称一样
- */
+package com.mycompany.scala.tests
+ /**
+  *  scala的数值类型有：Byte,Int,Long,Short,Float,Double 除了Int,其他都和java基础类型的包装类名称一样
+  */
 object NumericTypeTest {
   def main(args: Array[String]): Unit = {
     var b: Byte = 10; println(b); //有符号整型 1字节

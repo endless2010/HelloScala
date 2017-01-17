@@ -1,4 +1,4 @@
-package com.mycompany.scala
+package com.mycompany.scala.tests
 /**
  * 闭包是一个函数，返回值依赖于声明在函数外部的一个或多个变量
  */

@@ -1,4 +1,4 @@
-package com.mycompany.scala
+package com.mycompany.scala.tests
 /**
  * for(<identifier> <- <iterator>) [yield] [<expression>]
  * yield关键字是可选的，如果表达式中指定了这个关键字，调用的所有表达式的返回值将作为一个集合返回
@@ -26,5 +26,7 @@ object ForTest {
       if t.size>0
     )
     println(t)
+    
+    for(i <- 1 to 3 ;j<- 1 to 3) print(s"$i$j ")
   }
 }

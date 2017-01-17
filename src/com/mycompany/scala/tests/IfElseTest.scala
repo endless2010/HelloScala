@@ -1,6 +1,6 @@
 
 
-package com.mycompany.scala
+package com.mycompany.scala.tests
 
 object IfElseTest {
   def main(args: Array[String]): Unit = {
